@@ -13,14 +13,9 @@ Alex has_many Backgrounds
 ```
 Backgrounds.create!([
   {
-    title: "Musician",
-    organization: "Various",
-    years: 3
-  },
-  {
-    title: "Axe Throwing Coach & Floor Manager", 
-    organization: "Backyard Axe Throwing League", 
-    years: 4
+    title: "Teaching Assistant", 
+    organization: "Actualize Coding Bootcamp", 
+    years: 1
   },
   {
     title: "Tournament Administrator and Broadcast Manager", 
@@ -28,9 +23,14 @@ Backgrounds.create!([
     years: 1
   },
   {
-    title: "Teaching Assistant", 
-    organization: "Actualize Coding Bootcamp", 
-    years: 1
+    title: "Axe Throwing Coach & Floor Manager", 
+    organization: "Backyard Axe Throwing League", 
+    years: 4
+  },
+  {
+    title: "Musician",
+    organization: "Various",
+    years: 3
   }
 ])
 ```
@@ -40,16 +40,16 @@ Alex has_many Projects
 ```
 Projects.create!([
   {
-    name: "Cows are Friends", 
-    short_description: "A restaurant review website made specifically for vegetarians and vegans.", 
-    currently_working_on: false, 
-    deployed: true
-  },
-  {
     name: "practAxe", 
     short_description: "An axe-throwing app made for keeping track of your training sessions!", 
     currently_working_on: true, 
     deployed: false
+  },
+  {
+    name: "Cows are Friends", 
+    short_description: "A restaurant review website made specifically for vegetarians and vegans.", 
+    currently_working_on: false, 
+    deployed: true
   }
 ])
 ```
