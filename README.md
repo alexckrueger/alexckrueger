@@ -13,6 +13,11 @@ Alex has_many Backgrounds
 ```
 Backgrounds.create!([
   {
+    title: "Musician",
+    organization: "Various",
+    years: 3
+  },
+  {
     title: "Axe Throwing Coach & Floor Manager", 
     organization: "Backyard Axe Throwing League", 
     years: 4
