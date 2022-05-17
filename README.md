@@ -5,7 +5,7 @@
 |name:string|"Alex"|
 |university:string|"University of Illinois at Chicago"|
 |coding_graduate_from:string|"Actualize Coding Bootcamp"|
-|graduated:datetime|DateTime.new(2022,3,25)|
+|date_graduated:datetime|DateTime.new(2022,3,25)|
 |introduction:string|"Hi, I'm Alex. I'm a certified nerd offering an abnormal perspective including music theory 🎵, axe throwing 🪓, and esports production 🎥"|
 
 Alex has_many Backgrounds
