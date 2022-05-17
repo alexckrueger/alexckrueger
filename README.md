@@ -11,7 +11,7 @@
 Alex has_many Backgrounds
 
 ```
-Backgrounds.create!([
+Background.create!([
   {
     title: "Teaching Assistant", 
     organization: "Actualize Coding Bootcamp", 
@@ -38,7 +38,7 @@ Backgrounds.create!([
 Alex has_many Projects
 
 ```
-Projects.create!([
+Project.create!([
   {
     name: "practAxe", 
     short_description: "An axe-throwing app made for keeping track of your training sessions!", 
