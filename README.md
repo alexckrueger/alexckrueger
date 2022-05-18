@@ -2,7 +2,7 @@
 
 |Subject|Contents|
 |-----|-----|
-|name:string|"Alex"|
+|name:string|"Alex Krueger"|
 |university:string|"University of Illinois at Chicago"|
 |coding_graduate_from:string|"Actualize Coding Bootcamp"|
 |date_graduated:datetime|DateTime.new(2022,3,25)|
