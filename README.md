@@ -3,6 +3,7 @@
 |Subject|Contents|
 |-----|-----|
 |name:string|"Alex Krueger"|
+|axe_throwing_championships:integer|4|
 |university:string|"University of Illinois at Chicago"|
 |coding_graduate_from:string|"Actualize Coding Bootcamp"|
 |date_graduated:datetime|DateTime.new(2022,3,25)|
